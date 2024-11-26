@@ -262,6 +262,7 @@ width: var(--width)
 
 #main-container{
     overflow: hidden;
+    padding: 0px;
     font-size: 50px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -269,5 +270,16 @@ width: var(--width)
 
 P{
     text-align: justify;
+    padding: 20px;
+}
+
+/*LINKS 2*/
+.nav-links-2 {
+list-style: none;
+}
+
+.nav-links-2 a{
+text-decoration: none;
+color: saddlebrown;
 }
 
