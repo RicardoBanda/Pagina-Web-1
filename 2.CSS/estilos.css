@@ -1,0 +1,20 @@
+* {
+    background-color: darkgrey;
+    text-decoration: none;
+}
+
+/*TITULO 1*/
+h1 {
+    font-size: 45px;
+    color: darkgreen;
+    font-style: italic;
+}
+
+p1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+

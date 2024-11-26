@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/2.CSS/Personajes.css">
+    <link rel="shortcut icon" href="/iconos/logo_pag.ico" type="image/x-icon">
+    <title>Personaje de Cancion de hielo y fuego</title>
+</head>
+<body>
+
+    <header class="header2">
+        <div class="logo2">
+            <img src="/imagenes/logo2.png" alt="">
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Acerca de</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn2"><button>Contacto</button></a>
+    </header>
+
+    <h1>Grandes casas de Poniente</h1>
+
+
+    <div id="sidemenu" class="menu-collapsed">
+
+        <!--HEADER-->
+        <div id="header">
+            <div id="title"><span>Vida Mrr</span></div>
+            <div id="menu-btn">
+                <div class="btn-hamburger"></div>
+                <div class="btn-hamburger"></div>
+                <div class="btn-hamburger"></div>
+            </div>
+        </div>
+
+            <!--PROFILE-->
+
+            <!--ITEMS-->
+
+            <div id="menu-items">
+                <div class="item">
+                    <a href="/1.HTML/Stark.html">
+                        <div class="icon"><img src="/iconos/Casa_Stark_escudo.ico" alt=""></div>
+                        <div class="title"><span>Casa Stark</span></div>
+                    </a>
+                
+                <div class="item separator">
+
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="icon"><img src="/iconos/Casa_Baratheon.ico" alt=""></div>
+                        <div class="title"><span>Casa Baratehon</span></div>
+                    </a>
+
+                <div class="item separator">
+
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="icon"><img src="/iconos/Casa_Targaryen_estandarte.ico"></div>
+                        <div class="title"><span>Casa Targaryen</span></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+<script>
+    const btn = document.querySelector('#menu-btn');
+    const menu = document.querySelector('#sidemenu');
+    btn.addEventListener("click", (e) => {
+        menu.classList.toggle("menu-expanded");
+        menu.classList.toggle("menu-collapsed");
+        
+        document.querySelector("body").classList.toggle("body-expanded");
+    });
+
+</script>
+</body>
+</html>
