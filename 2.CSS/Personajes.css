@@ -259,5 +259,9 @@ width: var(--width)
 
 /*H1*/
 h1{
+    font-size: 50px;
     text-align: center;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
 }
