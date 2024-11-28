@@ -255,8 +255,7 @@ width: var(--width)
 .header2 .btn2 button:hover{
     background-color: white;
     color: darkgoldenrod;
-    transform: scale(1.1)
-    ;
+    transform: scale(1.1);
 }
 /*CONTAINER*/
 
