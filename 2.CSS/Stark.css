@@ -47,15 +47,12 @@ HEADER
     overflow: hidden;
 }
 
-#sidemenu #header #title #sidemenu #header #menu-btn{
+#sidemenu #header #title  #menu-btn{
     vertical-align: middle;
 }
 
-#sidemenu #header #menu-btn{
-    display: inline-block;
-}
-
 #sidemenu #header #menu-btn {
+    display: inline-block;
     cursor: pointer;
     padding: 10px;
     width: var(--width-collapsed);
