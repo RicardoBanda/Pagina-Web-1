@@ -59,10 +59,26 @@
                         <div class="title"><span>Casa Baratheon</span></div>
                     </a>
                 </div>
+                <div class="item separator"></div>
+                <div class="item">
+                    <a href="#">
+                        <div class="icon"><img src="/iconos/Casa_Targaryen_estandarte.ico" alt=""></div>
+                        <div class="title"><span>Casa Targaryen</span></div>
+                    </a>
+                </div>
             </div>
-
-
         </div>
     </div>
+    <script>
+        const btn = document.querySelector('#menu-btn');
+        const menu = document.querySelector('#sidemenu');
+        btn.addEventListener("click", (e) => {
+            menu.classList.toggle("menu-expanded");
+            menu.classList.toggle("menu-collapsed");
+
+            document.querySelector("body").classList.toggle("body-expanded");
+           });
+
+    </script>
 </body>
 </html>
