@@ -12,17 +12,17 @@ body{
     font-size: 18px;
     padding: 0;
     margin: 0;
-    margin-left: var(--width-collapsed)
+    margin-left: var(--width-collapsed);
 }
 
 /*HEADER 2*/
 .header2{
-background-color: rgb(52, 52, 52);
-display: flex;
-justify-content:space-between;
-align-items: center;
-height: 42px;
-padding: 5px 10%;
+    background-color: rgb(52, 52, 52);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 42px;
+    padding: 5px 10%;
 }
 
 .header2 .logo2{
@@ -87,7 +87,7 @@ padding: 5px 10%;
 }
 
 .body-expanded{
-    margin-left: var(--width);
+    margin-left: var(---width);
 }
 
 #sidemenu{
@@ -128,7 +128,7 @@ padding: 5px 10%;
 }
 
 #sidemenu #header #menu-btn:hover{
-    background-color: var(--hovercolor)
+    background-color: var(--hovercolor);
 }
 
 #sidemenu #header #menu-btn .btn-hamburger{
@@ -139,7 +139,7 @@ padding: 5px 10%;
 }
 
 /* ITEM*/
-#sidemenu #menu.items{
+#sidemenu #menu-items{
     overflow: hidden;
 }
 
