@@ -21,7 +21,7 @@ background-color: rgb(52, 52, 52);
 display: flex;
 justify-content:space-between;
 align-items: center;
-height: 43px;
+height: 42px;
 padding: 5px 10%;
 }
 
@@ -30,7 +30,7 @@ padding: 5px 10%;
 }
 
 .header2 .logo2 img{
-    height: 50px;
+    height: 60px;
     width: auto;
 }
 
@@ -86,7 +86,11 @@ padding: 5px 10%;
     font-style: normal;
 }
 
-#sidemenu {
+.body-expanded{
+    margin-left: var(--width);
+}
+
+#sidemenu{
     background-color: var(--bgcolor);
     color: white;
     position: fixed;
@@ -111,7 +115,7 @@ padding: 5px 10%;
     overflow: hidden;
 }
 
-#sidemenu #header #title #menu-bt{
+#sidemenu #header #title #menu-btn{
     vertical-align: middle;
 }
 
@@ -155,11 +159,15 @@ padding: 5px 10%;
     display: inline-block;
 }
 
+#sidemenu #menu-items .item a{
+    display:block;
+}
+
 #sidemenu #menu-items .item a:hover{
     background-color: var(--hovercolor);
 }
 
-#sidemenu #menu-items .icon{
+#sidemenu #menu-items .item .icon{
     box-sizing: border-box;
     padding: var(--padding);
     width: var(--width-collapsed);
@@ -173,26 +181,26 @@ padding: 5px 10%;
     padding: var(--padding) 0;
 }
 
-#side-menu #menu-items .item .separator{
+#sidemenu #menu-items .item .separator{
     height: 1px;
     border-bottom: solid 1px var(--hovercolor);
-    margin: 15px 0
+    margin: 15px 0;
 }
 
 .menu-expanded{
     width: var(---width);
-    box-shadow: 0 0 10px rgba (0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .menu-expanded #header #title{
     display: inline-block;
-    width: calc(100%.50px);
+    width: calc(100% - 50px);
     margin-right: -5px;
-    padding: var(--padding)
+    padding: var(--padding);
 }
 
 .menu-expanded #header #title span{
-    width: calc (var(---width) - var(---width-collapsed) - 5px);
+    width: calc(var(---width) - var(--width-collapsed) - 5px);
     overflow: hidden;
     display: inline-block;
 }

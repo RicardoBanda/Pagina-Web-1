@@ -15,6 +15,76 @@ body{
     margin-left: var(--width-collapsed)
 }
 
+/*HEADER 2*/
+.header2{
+    background-color: rgb(52, 52, 52);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 43px;
+    padding: 5px 10%;
+}
+
+.header2 .logo2{
+    cursor: pointer;
+}
+
+.header2 .logo2 img{
+    height: 60px;
+    width: auto;
+}
+
+.header2 .logo2 img:hover{
+    transform: scale(1.2);
+}
+
+.header2 .nav-links{
+    list-style: none;
+}
+
+.header2 .nav-links li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.header2 .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header2 .nav-links a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.header2 .nav-links li a:hover{
+    color: darkgoldenrod;
+}
+
+.header2 .btn2 button{
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0.5;
+}
+
+.header2 .btn2 button:hover{
+    background-color: white;
+    color: darkgoldenrod;
+    transform: scale(1.1);
+}
+/*CONTAINER*/
+#main-container{
+    overflow: hidden;
+    padding: 0px;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .body-expanded{
     margin-left: var(--width);
 }
@@ -33,13 +103,10 @@ body{
     text-decoration: none;
 }
 
-/*
-HEADER
-*/
-
+/*HEADER1*/
 #sidemenu #header{
     box-sizing: border-box;
-    border-bottom: solid 1px var(--hovercolor)
+    border-bottom: solid 1px var(--hovercolor);
 }
 
 #sidemenu #header #title{
@@ -47,11 +114,11 @@ HEADER
     overflow: hidden;
 }
 
-#sidemenu #header #title  #menu-btn{
+#sidemenu #header #title #menu-btn{
     vertical-align: middle;
 }
 
-#sidemenu #header #menu-btn {
+#sidemenu #header #menu-btn{
     display: inline-block;
     cursor: pointer;
     padding: 10px;
@@ -76,7 +143,7 @@ HEADER
 }
 
 #sidemenu #menu-items .item{
-width: var(--width)
+width: var(---width)
 }
 
 #sidemenu #menu-items .item .icon{
@@ -120,11 +187,11 @@ width: var(--width)
 }
 
 .menu-expanded{
-    width: var(--width);
+    width: var(---width);
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.menu-expanded #header #title {
+.menu-expanded #header #title{
     display: inline-block;
     width: calc(100% - 50px);
     margin-right: -5px;
@@ -132,7 +199,7 @@ width: var(--width)
 }
 
 .menu-expanded #header #title span{
-    width: calc(var(--width) - var(--width-collapsed) - 5px);
+    width: calc(var(---width) - var(--width-collapsed) - 5px);
     overflow: hidden;
     display: inline-block;
 }
@@ -150,80 +217,6 @@ width: var(--width)
 
 .menu-collapsed .item{
     width: 100px;
-}
-
-
-/*HEADER 2*/
-.header2{
-    background-color: rgb(52, 52, 52);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 43px;
-    padding: 5px 10%;
-}
-
-.header2 .logo2{
-    cursor: pointer;
-}
-
-.header2 .logo2 img{
-    height: 60px;
-    width: auto;
-}
-
-.header2 .logo2 img:hover{
-    transform: scale(1.2);
-}
-
-.header2 .nav-links{
-    list-style: none;
-}
-
-.header2 .nav-links li {
-    display: inline-block;
-    padding: 0 20px;
-}
-
-.header2 .nav-links li:hover{
-    transform: scale(1.1);
-}
-
-.header2 .nav-links a{
-    font-size: 700;
-    color: white;
-    text-decoration: none;
-}
-
-.header2 .nav-links li a:hover{
-    color: darkgoldenrod;
-}
-
-.header2 .btn2 button{
-    font-weight: 700;
-    color: darkgray;
-    padding: 9px 25px;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3 ease 0.5;
-}
-
-.header2 .btn2 button:hover{
-    background-color: white;
-    color: darkgoldenrod;
-    transform: scale(1.1);
-}
-/*CONTAINER*/
-
-#main-container{
-    overflow: hidden;
-    padding: 0px;
-    font-size: 50px;
-    text-align: center;
-    font-family: "Cinzel Decorative", serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 P{
