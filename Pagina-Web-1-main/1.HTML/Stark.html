@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/2.CSS/Stark.css">
+    <link rel="shortcut icon" href="/iconos/logo_pag.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Cinzel+Decorative:wght@400;700;900&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>Personaje de Cancion de hielo y fuego</title>
+</head>
+<body>
+
+<!--HEADER2-->
+    <header class="header2">
+        <a href="/1.HTML/Personajes.html">
+        <div class="logo2">
+            <img src="/imagenes/logo2.png" alt="">
+        </div>
+        </a>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Acerca de</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn2"><button>Contacto</button></a>
+    </header>
+
+    <div id="main-container">
+        La casa Stark
+    </div> 
+
+       <p>
+        La Casa Stark de Invernalia es una casa noble del Norte. Su asentamiento es Winterfell. Durante siglos, fue la casa principal del Norte y su linaje se extiende hasta los Primeros Hombres, gobernando el Norte como reyes por derecho propio. Su emblema es un lobo huargo de cenizo corriendo sobre campo de plata.
+        Su lema es Se acerca el Invierno.Su mandoble ancestral de acero valyrio se llamaba Hielo. <br> <br>
+        Para el momento del comienzo de las novelas, la casa Stark y sus vasallos forman parte de cerca de la mitad de la expansión territorial de Poniente, aunque gran parte de estas tierras se encuentran habitadas esporádicamente y se encuentran mayormente aislados de las regiones del Sur gracias a los pantanos del Cuello. <br> <br>
+        Los Stark son los descendientes de Brandon el Constructor, un personaje legendario que vivió durante la Edad de los Héroes, hace miles de años, y que construyó Invernalia, Bastión de Tormentas y el Muro. Los Stark fueron los Reyes de Invernalia en el Norte desde la Edad de los Héroes con Brandon el Constructor hasta el sometimiento de Torrhen Stark a Aegon el Conquistador, al final de la Guerra de la Conquista. Desde entonces los Stark han mantenido el Norte para los reyes de Poniente como Señores de Invernalia y Guardianes del Norte.
+       </p>
+
+       <nav>
+        <ul class="nav-links-2">
+            <li><a href="#">Eventos recientes</a></li>
+            <li><a href="#">Personajes principales</a></li>
+            <li><a href="#">Eventos importantes</a></li>
+        </ul>
+       </nav>
+
+
+    <div id="sidemenu" class="menu-collapsed">
+
+        <!--HEADER-->
+        <div id="header">
+            <div id="menu-btn">
+                <div class="btn-hamburger"></div>
+                <div class="btn-hamburger"></div>
+                <div class="btn-hamburger"></div>
+            </div>
+        </div>
+
+            <!--ITEMS-->
+            <div id="menu-items">
+                <div class="item">
+                    <a href="#">
+                        <div class="icon"><img src="/iconos/Casa_Stark_escudo.ico" alt=""></div>
+                        <div class="title"><span>Casa Stark</span></div>
+                    </a>
+                
+                <div class="item separator"></div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="icon"><img src="/iconos/Casa_Baratheon.ico" alt=""></div>
+                        <div class="title"><span>Casa Baratehon</span></div>
+                    </a>
+
+                <div class="item separator">
+
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="icon"><img src="/iconos/Casa_Targaryen_estandarte.ico"></div>
+                        <div class="title"><span>Casa Targaryen</span></div>
+                    </a>
+                </div>
+                <div class="item separator">
+
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="icon"><img src="/iconos/Casa_Lannister_escudo.ico"></div>
+                        <div class="title"><span>Casa Lannister</span></div>
+                </div>
+                <div class="item separator">
+
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="icon"><img src="/iconos/Casa_Greyjoy_escudo.ico"></div>
+                        <div class="title"><span>Casa Greyjoy</span></div>
+                </div>
+            </div>
+        </div>
+    
+
+<script>
+    const btn = document.querySelector('#menu-btn');
+    const menu = document.querySelector('#sidemenu');
+    btn.addEventListener("click", (e) => {
+        menu.classList.toggle("menu-expanded");
+        menu.classList.toggle("menu-collapsed");
+        
+        document.querySelector("body").classList.toggle("body-expanded");
+    });
+
+</script>
+</body>
+</html>

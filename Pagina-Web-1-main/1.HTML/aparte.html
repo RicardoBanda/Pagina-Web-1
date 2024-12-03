@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="descrption" content="">
+    <title>Historias</title>
+    <link rel="icon" href="imagenes/icono2_mi_web.png" type="image/png">
+
+<!--Open Graph-->
+<meta property="og:title" content="Mi web">
+<meta property="og:descrption" content="Explora sobra GOT">
+<meta property="og:type" content="Website">
+<meta property="og:url" content="https://miweb.com">
+<meta property="og:image" content="imagenes/coliandre-vhagar.jpg">
+<meta property="og:site_name" content="Mi_web">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/1.HTML/index.html">Inicio</a></li>
+                <li><a href="/1.HTML/multimedia.html">Contacto</a></li>
+                <li><a href="/1.HTML/aparte.html">Mas historias</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1>Registrate al proximo evento</h1>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio assumenda minima explicabo dolore molestiae, dolorem, quos perspiciatis rem, 
+            illo provident inventore hic! Quis vitae ab laborum sit praesentium neque omnis.
+        </p>
+
+        <form action="index.html" method="get">
+            <fieldset>
+                <legend>Registrate</legend>
+                <label>Nombre
+                    <input type="text" name="nombre" id="nombre" required maxlength="20">
+                </label> <br>
+                <label>Edad
+                    <input type="number" name="edad" id="edad" required min="18">
+                </label> <br>
+                <label>Correo
+                    <input type="email" name="correo" id="correo" required>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Genero</legend>
+                <label>Hombre
+                    <input type="radio" name="genero" id="hombre" value="hombre" required>
+                </label> 
+                <label>Mujer
+                    <input type="radio" name="genero" id="mujer" value="mujer" required>
+                </label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Eventos</legend>
+                <label for="evento">Selleciona le evento: </label>
+                <select name="evento" id="evento">
+                    <option value="conferencia_tec">Conferencia de tecnologia</option>
+                    <option value="webinar_ceo">Webinar sobre ceo</option>
+                    <option value="taller_cloud">Taller Cloud</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Ciudades de eventos</legend>
+                <label for="ciudad">Ciudad</label>
+                <input list="ciudades" id="ciudad" name="ciudad" required>
+                <datalist id="ciudades">
+                    <option value="Madrid">
+                    <option value="Madrid">
+                    <option value="Mallorca">    
+                </datalist>
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+
+    <section>
+        <h2>Mas informacion sobre eventos</h2>
+
+        <details>
+            <summary>Conferencia Tecnologica</summary> 
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Amet odit harum corrupti perspiciatis at dicta perferendis, 
+                    iste officiis blanditiis animi voluptates obcaecati. Vitae repudiandae illo aperiam quas laborum, 
+                    dolores rerum!
+                </p>
+            </div>
+        </details>
+
+        <details>
+            <summary>Webinar de ceo</summary>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ipsa aperiam quisquam voluptate necessitatibus nemo voluptas dolor. 
+                    Ullam, doloribus laboriosam beatae fugiat quae iure illo excepturi eos accusantium dignissimos quia.
+                </p>
+            </div>
+        </details>
+    </section>
+</body>
+</html>

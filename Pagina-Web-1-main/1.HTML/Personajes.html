@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/2.CSS/Personajes.css">
+    <link rel="shortcut icon" href="/iconos/logo_pag.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Cinzel+Decorative:wght@400;700;900&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>Personaje de Cancion de hielo y fuego</title>
+</head>
+<body>
+
+    <header class="header2">
+        <div class="logo2">
+            <img src="/imagenes/logo2.png" alt="">
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Acerca de</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn2"><button>Contacto</button></a>
+    </header>
+
+    <h1>Grandes casas de Poniente</h1>
+    <p>En poniente existen muchas casas nobles, aqui te un litado junto con historia y mejores hazañas. <br><br>
+        Las Grandes Casas son las casas nobles más poderosas de los Siete Reinos. Ejercen una inmensa autoridad y poder sobre sus vasallos y territorios y solo responden ante el Rey de los Ándalos, los Rhoynar y los Primeros Hombres.Linajes e Historias de las Grandes Casas de los Siete Reinos, con muchas descripciones de nobles caballeros, damas y sus descendientes describen las grandes casas y los grandes señores de Poniente. <br><br>
+    </p><br><br>
+
+
+
+    <div id="sidemenu" class="menu-collapsed">
+
+        <!--HEADER-->
+        <div id="header">
+            <div id="title"><span>Vida Mrr</span></div>
+            <div id="menu-btn">
+                <div class="btn-hamburger"></div>
+                <div class="btn-hamburger"></div>
+                <div class="btn-hamburger"></div>
+            </div>
+        </div>
+
+            <!--PROFILE-->
+
+            <!--ITEMS-->
+
+            <div id="menu-items">
+                <div class="item">
+                    <a href="/1.HTML/Stark.html">
+                        <div class="icon"><img src="/iconos/Casa_Stark_escudo.ico" alt=""></div>
+                        <div class="title"><span>Casa Stark</span></div>
+                    </a>
+                
+                <div class="item separator">
+
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="icon"><img src="/iconos/Casa_Baratheon.ico" alt=""></div>
+                        <div class="title"><span>Casa Baratehon</span></div>
+                    </a>
+
+                <div class="item separator">
+
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="icon"><img src="/iconos/Casa_Targaryen_estandarte.ico"></div>
+                        <div class="title"><span>Casa Targaryen</span></div>
+                    </a>
+                </div>
+                <div class="item separator">
+
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="icon"><img src="/iconos/Casa_Lannister_escudo.ico"></div>
+                        <div class="title"><span>Casa Lannister</span></div>
+                </div>
+                <div class="item separator">
+
+                </div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="icon"><img src="/iconos/Casa_Greyjoy_escudo.ico"></div>
+                        <div class="title"><span>Casa Greyjoy</span></div>
+                </div>
+            </div>
+    
+<script>
+    const btn = document.querySelector('#menu-btn');
+    const menu = document.querySelector('#sidemenu');
+    btn.addEventListener("click", (e) => {
+        menu.classList.toggle("menu-expanded");
+        menu.classList.toggle("menu-collapsed");
+        
+        document.querySelector("body").classList.toggle("body-expanded");
+    });
+
+</script>
+</body>
+</html>

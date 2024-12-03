@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/2.CSS/Baratheon.css">
+    <link rel="shortcut icon" href="/iconos/logo_pag.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Cinzel+Decorative:wght@400;700;900&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <title>Personaje de Cancion de hielo y fuego</title>
+</head>
+<body>
+
+    <!--HEADER2-->
+    <header class="header2">
+        <a href="/1.HTML/Personajes.html">
+        <div class="logo2">
+            <img src="/imagenes/logo2.png" alt="">
+        </div>
+        </a>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Acerca de</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn2"><button>Contacto</button></a>
+    </header>
+
+    <div id="main-container">
+        La casa Baratheon 
+    </div>
+
+    <p>La Casa Baratheon de Bastión de Tormentas es una casa noble de las Tierras de la Tormenta. Su asentamiento es Bastión de Tormentas, que fue residencia de la Casa Durrandon, los antiguos Reyes de la Tormenta. Su emblema es un venado coronado de sable sobre campo de oro. <br> Su lema es Nuestra es la Furia.</p>
+    
+    <div id=sidemenu class="menu-collapsed">
+
+        <!--HEADER-->
+        <div id="header">
+            <div id="menu-btn">
+                <div class="btn-hamburger"></div>
+                <div class="btn-hamburger"></div>
+                <div class="btn-hamburger"></div>
+            </div>
+        </div>
+
+        <!--ITEMS-->
+        <div id="menu-items">
+            <div class="item">
+                <a href="#">
+                    <div class="icon"><img src="/iconos/Casa_Stark_escudo.ico" alt=""></div>
+                    <div class="title"><span>Casa Stark</span></div>
+                </a>
+
+                <div class="item separator"></div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="icon"><img src="/iconos/Casa_Baratheon.ico" alt=""></div>
+                        <div class="title"><span>Casa Baratheon</span></div>
+                    </a>
+
+                <div class="item separator"></div>
+
+                <div class="item">
+                    <a href="#">
+                        <div class="icon"><img src="/iconos/Casa_Targaryen_estandarte.ico" alt=""></div>
+                        <div class="title"><span>Casa Targaryen</span></div>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const btn = document.querySelector('#menu-btn');
+        const menu = document.querySelector('#sidemenu');
+        btn.addEventListener("click", (e) => {
+            menu.classList.toggle("menu-expanded");
+            menu.classList.toggle("menu-collapsed");
+
+            document.querySelector("body").classList.toggle("body-expanded");
+           });
+
+    </script>
+</body>
+</html>
